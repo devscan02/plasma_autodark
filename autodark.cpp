@@ -1,4 +1,4 @@
-/*"
+/*
 KDE Plasma Auto Dark Mode
 Created by hhk02
 */
