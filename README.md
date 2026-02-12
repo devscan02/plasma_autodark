@@ -2,7 +2,7 @@
 
 Auto Dark Mode is a lightweight utility for KDE Plasma that automatically switches your theme based on the system time of day.
 
-**Created by:** isaachhk02
+**Created by:** devscan02
 
 ## Features
 
