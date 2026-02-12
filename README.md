@@ -1,36 +1,71 @@
 # Auto Dark Mode for KDE Plasma 5 and 6
 
-Created by isaachhk02
+Auto Dark Mode is a lightweight utility for KDE Plasma that automatically switches your theme based on the system time of day.
 
-This small program changes your current theme depending of the hour of the system.
+**Created by:** isaachhk02
 
-# Build:
-``make``
+## Features
 
+- 🌙 Automatic theme switching based on system time
+- ⚙️ Easy installation and configuration
+- 🔄 Systemd service integration
+- 💾 Lightweight and efficient
 
-# Install:
-``make install``
+## Prerequisites
 
-#  Start the service:
-   ``systemctl --user start autodark.service``
+- KDE Plasma 5 or 6
+- Make (for building)
 
-   ``systemctl --user start autodark.timer``
+## Installation
 
+### Build
 
-#  Stop the service:
-   ``systemctl --user stop autodark.service``
+```bash
+make
+```
 
-   ``systemctl --user stop autodark.timer``
+### Install
 
+```bash
+make install
+```
 
-#  Disable the service on startup:
-   ``systemctl --user disable autodark.service``
+## Usage
 
-   ``systemctl --user disable autodark.timer``
+### Start the service
 
-#  Enable on start the OS:
-   ``systemctl --user enable autodark.service``
-   ``systemctl --user enable autodark.timer``
-# Uninstall
+```bash
+systemctl --user start autodark.service
+systemctl --user start autodark.timer
+```
 
-``make uninstall``
+### Stop the service
+
+```bash
+systemctl --user stop autodark.service
+systemctl --user stop autodark.timer
+```
+
+### Enable on system startup
+
+```bash
+systemctl --user enable autodark.service
+systemctl --user enable autodark.timer
+```
+
+### Disable on system startup
+
+```bash
+systemctl --user disable autodark.service
+systemctl --user disable autodark.timer
+```
+
+## Uninstallation
+
+```bash
+make uninstall
+```
+
+## License
+
+See the repository for license information.
